@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+#current-image-container {
+    width: 530px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#img-day {
+    width: 500px;
+    height: 500px;
+    object-fit: fill;
+}
+
+#title {
+    margin: 15px 0px;
+}
+
+#desc {
+    margin: 15px 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px 10px;
+}
